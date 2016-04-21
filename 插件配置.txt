@@ -1,0 +1,29 @@
+对自己安装的插件的记录：
+
+Package Control:
+	描述：sublime的插件管理系统，本身也是sublime的一个插件。
+	安装：打开https://packagecontrol.io/installation#st3，复制SUBLIME TEXT 3下的代码，然后打开sublime中的
+	view->show console选项，粘贴刚才复制的代码，按Enter键，安装完成后重启sublime就好了。
+	在后续需要安装其他插件时，使用Ctrl+Shift+P调出命令框，输入install package，回车，在弹出的框中输入要
+	安装的插件名，找到后按Enter键安装。
+
+AdvancedNewFile:
+	描述：一般我们新建一个文件需要先按Ctrl+N新建，然后使用Ctrl+S保存，使用此插件直接按Ctrl+Alt+N弹出
+	框中直接输入文件名称即可。
+
+ConvertToUTF8:
+	描述：sublime默认是不支持中文编码的，所以打开含有中文的编码会出现乱码，安装ConvertToUTF-8后，然后选择
+	file->Reload with Encoding->Chinese Simplified(GBK)选项，再开打中文就不会乱码了
+
+DocBlocker:
+	描述：自动补全注释,比如敲/**,然后回车，会自动补全剩余的注释。如果在方法头上写注释，还会自动带参数的描述。
+
+Emmet:
+	描述：代码自动补全，编写HTML，css的利器。可以使用简化的一些写法，然后按Tab键会自动补全。比如：
+	写一个div.nav,按Tab键，会变为<div class="nav"></div>。
+
+Theme - Spacegray:
+	描述：一种主题样式插件，安装完成后，在preferences->setting-user选项中添加"theme": "Spacegray Eighties.sublime-theme"，保存后就使用这个主题。其他主题类似。
+
+View In Browser:
+	描述：安装完此插件后，在Preferences->Key Bindings User选项中添加在浏览器中打开文件的快捷键，我添加的是{ "keys": ["f1"], "command": "open_in_browser" }，表示使用的快捷键是f1。
